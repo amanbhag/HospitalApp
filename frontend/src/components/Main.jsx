@@ -96,6 +96,7 @@ const PatientGrid = () => {
                     <button
                       className="mt-2 px-3 w-[70%] text-[#312E81] border-[#312E81] border-2 rounded-full"
                       onClick={handlePrintBill}
+disabled
                     >
                       View Prescription
                     </button>
